@@ -1,3 +1,12 @@
+Prometheus React
+
+This project is a platform / set of tools to allow quick and easy creation of websites by providing a template file
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
