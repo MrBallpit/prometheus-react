@@ -45,7 +45,7 @@ const pageComponents=
         "body": 
         [
             {
-                "Table": 
+                "Carousel": 
                 {
                     
                     "items": [

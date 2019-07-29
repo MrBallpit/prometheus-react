@@ -1,7 +1,8 @@
 import React from 'react';
 import ComponentJumbotron from './components/ComponentJumbotron';
-import ComponentTable from './components/ComponentTable.js'
-import ComponentNavBar from './components/ComponentNavBar.js'
+import ComponentTable from './components/ComponentTable.js';
+import ComponentNavBar from './components/ComponentNavBar.js';
+import ComponentCarousel from './components/ComponentCarousel.js';
 
 function BuildComponent(props) {
     let ComponentReturn=[];
@@ -16,6 +17,9 @@ function BuildComponent(props) {
                 break;
             case "NavBar":
                 ComponentReturn.push(<ComponentNavBar CompVars={compVars} />)
+                break;
+            case "Carousel":
+                ComponentReturn.push(<ComponentCarousel CompVars={compVars} />)
                 break;
             default:
                 break;
